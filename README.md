@@ -31,11 +31,11 @@ The DevOps Monitoring Project utilizes Prometheus, Alert Manager, Blackbox Expor
 - Node Exporter: Collects hardware and OS metrics
 
 ## <a name="features">🔋 Features </a>
-- Instance Monitoring: Alerts when a VM instance is down.
-- Website Monitoring: Alerts when a monitored website is unreachable.
-- Service Monitoring: Alerts when a specific service (e.g., Node Exporter) is unavailable.
-- Resource Monitoring: Alerts for high CPU load, out of memory, and no disk space conditions.
-- Email Notifications: Sends detailed alert notifications via email.
+- **Instance Monitoring:** Alerts when a VM instance is down.
+- **Website Monitoring:** Alerts when a monitored website is unreachable.
+- **Service Monitoring:** Alerts when a specific service (e.g., Node Exporter) is unavailable.
+- **Resource Monitoring:** Alerts for high CPU load, out of memory, and no disk space conditions.
+- **Email Notifications:** Sends detailed alert notifications via email.
 
 ## <a name="steps">🤸 Steps</a>
 ### We need 2 VM. 
@@ -307,8 +307,8 @@ inhibit_rules:
 ---
 ## <a name="more">🚀 More</a>
 For more information on the setup and configuration of Prometheus, Alert Manager, Blackbox Exporter, and Node Exporter, please refer to their official documentation:
-Prometheus Documentation [here](https://prometheus.io/docs/introduction/overview/)
-Alert Manager Documentation [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
-Blackbox Exporter Documentation [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
-Node Exporter Documentation [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
+- Prometheus Documentation [here](https://prometheus.io/docs/introduction/overview/)  
+- Alert Manager Documentation [here](https://prometheus.io/docs/alerting/latest/alertmanager/)  
+- Blackbox Exporter Documentation [here](https://github.com/prometheus/blackbox_exporter)  
+- Node Exporter Documentation [here](https://prometheus.io/docs/guides/node-exporter/)  
 
